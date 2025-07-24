@@ -1,7 +1,7 @@
 # 🖌️ GAN Sketch to Image
 
 <p align="center">
-  <img src="images/banner.png" alt="Project Banner" width="70%"/>
+  <img src="banner.png" alt="Project Banner" width="70%"/>
 </p>
 
 <p align="center">
