@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Generated Result</h1>
+    <div class="image-grid">
+      <div>
+        <h3>Input Sketch</h3>
+        <img src="{{ sketch_image }}" alt="Sketch Image">
+      </div>
+      <div>
+        <h3>Generated Photo</h3>
+        <img src="{{ predicted_image }}" alt="Predicted Photo">
+      </div>
+    </div>
+    <a href="/">Try another →</a>
+  </div>
+</body>
+</html>

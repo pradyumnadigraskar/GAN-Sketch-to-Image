@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sketch to Photo Generator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Sketch to Photo Generator</h1>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+      <input type="file" name="file" required>
+      <button type="submit">Generate Photo</button>
+    </form>
+  </div>
+</body>
+</html>

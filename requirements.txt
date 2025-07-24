@@ -1,0 +1,8 @@
+Flask
+tensorflow
+numpy
+opencv-python
+matplotlib
+tqdm
+werkzeug
+ipython 
