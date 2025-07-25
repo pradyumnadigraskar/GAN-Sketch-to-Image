@@ -63,14 +63,7 @@
 - 🗂️ **Batch Processing:** Utilities for dataset/image handling
 - 💎 **Beautiful Results:** See your art come to life!
 
----
 
-## 🚀 Demo
-<p align="center">
-  <img src="images/demo.gif" alt="Demo GIF" width="60%"/>
-</p>
-
----
 
 ## 📦 Installation
 
